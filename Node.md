@@ -65,14 +65,8 @@ These nodes communicate via the `temperature` topic.
 
 ## 📊 Animated Flowchart
 
-```mermaid
-flowchart LR
-    A[Sensor Node (Publisher)] -->|Publishes temperature| B[ROS Topic: temperature]
-    B -->|Subscribes| C[Display Node (Subscriber)]
-    style A fill:#FFD580,stroke:#333,stroke-width:2px
-    style B fill:#C2F0C2,stroke:#333,stroke-width:2px
-    style C fill:#80D8FF,stroke:#333,stroke-width:2px
-```
+![Robust ROS2 Node Architecture](https://github.com/user-attachments/assets/96abf1d3-3604-4514-901a-78c4d90c4f9c)
+
 
 ---
 
@@ -245,4 +239,4 @@ ros2 run my_package my_cpp_node
 - 💾 Always save files before building
 - 🧱 Rebuild after every change using `colcon build`
 
-![ROS2 Libraries](<Screenshot from 2025-04-14 13-38-37.png>)
+![ROS2 Libraries](https://github.com/user-attachments/assets/949667cd-1fbd-4278-b66f-19c18962c25b)
