@@ -129,8 +129,9 @@ To visualize nodes and topics:
 ```bash
 rqt_graph
 ```
+![NOde Graph](https://github.com/user-attachments/assets/2115752a-313a-4f6c-bef1-82a292d365cb)
 
-![alt text](image.png)
+
 
 ---
 
